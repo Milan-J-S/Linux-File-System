@@ -11,6 +11,7 @@ To compile the filesystem
 gcc filesys.c -o ssfs `pkg-config fuse --cflags --libs`
 
 To mount the file system
-./ssfs -f [mount point]            // mount point is the directory to mount to
+`./ssfs -f [mount point]`            
+( mount point is the directory to mount to )
 
 Now open the directory on which it was mounted using a new terminal window or the file browser
